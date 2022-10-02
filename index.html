@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="image/favicon-16x16.png"/>
+    <title>News</title>
 </head>
 
 <body>
@@ -78,6 +79,7 @@
         <p>Có thể nói, Top Trending và Top Trending Music của YouTube Việt Nam đang cực kỳ nhộn nhịp với nhiều cái tên
             "lớn"như: Đen, Hương Giang, Karik, Quân A.P, Đức Phúc... Dẫu từng là những cái tên thường xuyên đạt Top 1 nhưng
             hiện nay lại ngậm ngùi tụt lại sau so với Tại Vì Sao của MCK.</p>
+            <hr>
     </article>
     <foodter>
         <form action="">
@@ -86,7 +88,7 @@
             <input type="text" id="Full name" placeholder="Nhập họ và tên">
             <br>
             <label for="Số điện thoại">Số điện thoại</label>
-            <input type="text" id="phone" placeholder="Nhập số điện thoại">
+            <input type="text" id="Số điện thoại" placeholder="Nhập số điện thoại">
             <br>
             <h3>Bạn muốn dùng ngôn ngữ nào để viết bài?</h3>
             <input id="answer-1" type="checkbox" checked>
@@ -95,34 +97,25 @@
             <label for="answer-2">Vietnamese</label>
             <input id="answer-3" type="checkbox" checked>
             <label for="answer-3">Pashto</label>
+            <br>
             <h3>Giới tính</h3>
-            <input name="gender" id="answer-1" type="radio" radio>
-            <label for="answer-1">Nam</label>
-            <input name="gender" id="answer-2" type="radio" radio>
-            <label for="answer-1">Nữ</label>
-            <input name="gender" id="answer-3" type="radio" radio>
-            <label for="answer-1">Khác</label>
+            <input checked id=gender-male name="gender" type="radio" radio>
+            <label for="gender-male" >Nam</label>
+            <input id="gender-female" name="gender" type="radio" radio>
+            <label for="gender-female">Nữ</label>
+            <input id="gender-other" name="gender" type="radio" radio>
+            <label for="gender-other">Khác</label>
             <br>
             <h3>From đăng ký</h3>
             <p>Xin hãy nhập thông tin</p>
-            <label for="Email"><b>Email</b></label>
-            <input type="text" id="Email" placeholder="Nhập Email">
+            <label for="login-id"><b>Tên đăng nhập</b></label>
+            <input type="text" id="login-id" placeholder="Tên đăng nhập">
             <label for="Password"><b>Password</b></label>
             <input type="text" id="Password" placeholder="Nhập Password">
             <label for="psw-repeat"><b>Nhập lại Password</b></label>
             <input for="Password" id="psw-repeat" placeholder="Nhập lại Password">
             <button type="submit">Đăng ký</button>
         
-        </form>
-        <ol>
-            <li>
-                <i>Nguồn: YouTube</i>
-            </li>
-            <li>
-                <i>Kênh 14</i>
-            </li>
-
-        </ol>
     </foodter>
 </body>
 
