@@ -1,0 +1,16 @@
+h1::selection{
+    background-color: aqua;
+    color: blueviolet;
+}
+.abc li::marker{content: '❤️';
+}
+h1::after{
+    content: 'after content';
+    background-color: red;
+    color: aliceblue;
+}
+h1::before{
+    content: 'after content';
+    background-color: rgb(195, 135, 135);
+    color: rgb(18, 56, 88);
+}
